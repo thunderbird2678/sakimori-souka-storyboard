@@ -1,0 +1,32 @@
+﻿FormatVersion: 7
+Name: "highlight-kiai1-hit"
+Script: "HitObjectHighlight"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "52339"
+  EndTime:
+    Type: "System.Int32"
+    Value: "52518"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "1"
+  FadeDuration:
+    Type: "System.Int32"
+    Value: "1200"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/glow.png"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  492990b03cec423796b09404952bbc59:
+    Name: ""
+    OsbLayer: Foreground
+    DiffSpecific: Yes
+    Visible: Yes

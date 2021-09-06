@@ -1,0 +1,26 @@
+﻿FormatVersion: 7
+Name: "boom2"
+Script: "boom"
+Config:
+  Time:
+    Type: "System.Int32"
+    Value: "106000"
+  FadeDuration:
+    Type: "System.Int32"
+    Value: "1200"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/glow.png"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  52a14b2a18574ae6976206a001ceaebf:
+    Name: ""
+    OsbLayer: Foreground
+    DiffSpecific: Yes
+    Visible: Yes

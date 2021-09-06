@@ -1,0 +1,32 @@
+﻿FormatVersion: 7
+Name: "highlight-kiai2-flute"
+Script: "HitObjectHighlight"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "103410"
+  EndTime:
+    Type: "System.Int32"
+    Value: "104571"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+  FadeDuration:
+    Type: "System.Int32"
+    Value: "600"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/glow.png"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  18987d73542c487e9e0b1cd35f3a648f:
+    Name: ""
+    OsbLayer: Foreground
+    DiffSpecific: Yes
+    Visible: Yes
