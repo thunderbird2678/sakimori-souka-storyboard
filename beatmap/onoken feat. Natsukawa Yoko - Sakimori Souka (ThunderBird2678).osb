@@ -1,0 +1,1314 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"sb\snowDark.jpg",320,240
+ S,0,-10000,,0.45
+ F,0,-10000,150000,1
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ S,0,-10000,,0.45
+ F,0,-10000,51625,0
+ F,0,51625,51714,0,0.33
+ F,0,51714,51982,0.33
+ F,0,51982,52071,0.33,0.66
+ F,0,52071,52339,0.66
+ F,0,52339,52428,0.66,1
+ F,0,52428,74928,1
+ F,0,74928,75285,1,0
+ F,0,75285,95196,0
+ F,0,95196,95285,0,0.25
+ F,0,95285,95553,0.25
+ F,0,95553,95642,0.25,0.5
+ F,0,95642,95910,0.5
+ F,0,95910,96000,0.5,0.75
+ F,0,96000,96267,0.75
+ F,0,96267,96357,0.75,0.85
+ F,0,96357,96625,0.85
+ F,0,96625,96714,0.85,1
+ F,0,96714,118767,1
+ F,0,118767,118857,1,0
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,105285,105642,1,0
+ S,1,105285,105642,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,105285,105642,1,0
+ S,1,105285,105642,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,106000,106357,1,0
+ S,1,106000,106357,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,108142,108499,1,0
+ S,1,108142,108499,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,108857,109214,1,0
+ S,1,108857,109214,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,116714,117071,1,0
+ S,1,116714,117071,0.45,0.48
+Sprite,Background,Centre,"sb\snowLight.jpg",320,240
+ F,2,118857,119214,1,0
+ S,1,118857,119214,0.45,0.48
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93142,10
+  F,1,0,514,0,1
+  M,0,0,2571,371.5992,-321.8427,-150.5425,216.5513
+  F,2,2057,2571,1,0
+ S,0,93142,,0.1
+ R,0,93142,,2.340871
+ C,0,93142,,173,173,173
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93182,10
+  F,1,0,514,0,1
+  M,0,0,2571,100.5196,-123.9088,-91.01413,601.2222
+  F,2,2057,2571,1,0
+ S,0,93182,,0.1
+ R,0,93182,,1.829035
+ C,0,93182,,166,166,166
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93222,10
+  F,1,0,514,0,1
+  M,0,0,2571,355.9474,237.6158,-40.81812,874.0725
+  F,2,2057,2571,1,0
+ S,0,93222,,0.1
+ R,0,93222,,2.128242
+ C,0,93222,,253,253,253
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93262,10
+  F,1,0,514,0,1
+  M,0,0,2571,748.2432,63.4005,70.84705,385.3237
+  F,2,2057,2571,1,0
+ S,0,93262,,0.1
+ R,0,93262,,2.697952
+ C,0,93262,,181,181,181
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93302,10
+  F,1,0,514,0,1
+  M,0,0,2571,555.3015,-302.6566,-120.3427,22.92755
+  F,2,2057,2571,1,0
+ S,0,93302,,0.1
+ R,0,93302,,2.69254
+ C,0,93302,,231,231,231
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93342,10
+  F,1,0,514,0,1
+  M,0,0,2571,76.81311,-57.19763,-373.3538,542.6772
+  F,2,2057,2571,1,0
+ S,0,93342,,0.1
+ R,0,93342,,2.214576
+ C,0,93342,,161,161,161
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93383,10
+  F,1,0,514,0,1
+  M,0,0,2571,513.2853,223.7165,490.4407,973.3685
+  F,2,2057,2571,1,0
+ S,0,93383,,0.1
+ R,0,93383,,1.60126
+ C,0,93383,,211,211,211
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93423,10
+  F,1,0,514,0,1
+  M,0,0,2571,425.1065,-62.55417,304.0276,677.6079
+  F,2,2057,2571,1,0
+ S,0,93423,,0.1
+ R,0,93423,,1.732944
+ C,0,93423,,251,251,251
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93463,10
+  F,1,0,514,0,1
+  M,0,0,2571,115.5436,-9.815356,300.7144,716.9665
+  F,2,2057,2571,1,0
+ S,0,93463,,0.1
+ R,0,93463,,1.321322
+ C,0,93463,,246,246,246
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93503,10
+  F,1,0,514,0,1
+  M,0,0,2571,478.0234,-200.8215,269.4239,519.5856
+  F,2,2057,2571,1,0
+ S,0,93503,,0.1
+ R,0,93503,,1.852646
+ C,0,93503,,190,190,190
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93543,10
+  F,1,0,514,0,1
+  M,0,0,2571,162.2359,163.4156,-221.6245,807.738
+  F,2,2057,2571,1,0
+ S,0,93543,,0.1
+ R,0,93543,,2.108091
+ C,0,93543,,175,175,175
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93583,10
+  F,1,0,514,0,1
+  M,0,0,2571,655.8643,-226.5896,161.9873,337.8442
+  F,2,2057,2571,1,0
+ S,0,93583,,0.1
+ R,0,93583,,2.289624
+ C,0,93583,,217,217,217
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93624,10
+  F,1,0,514,0,1
+  M,0,0,2571,300.9346,-118.8653,-317.7719,305.0478
+  F,2,2057,2571,1,0
+ S,0,93624,,0.1
+ R,0,93624,,2.540896
+ C,0,93624,,147,147,147
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93664,10
+  F,1,0,514,0,1
+  M,0,0,2571,498.4446,-126.0831,90.29068,503.1311
+  F,2,2057,2571,1,0
+ S,0,93664,,0.1
+ R,0,93664,,2.146238
+ C,0,93664,,165,165,165
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93704,10
+  F,1,0,514,0,1
+  M,0,0,2571,669.7699,-0.0428467,253.6532,623.9339
+  F,2,2057,2571,1,0
+ S,0,93704,,0.1
+ R,0,93704,,2.158946
+ C,0,93704,,234,234,234
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93744,10
+  F,1,0,514,0,1
+  M,0,0,2571,667.6201,182.1397,188.9416,759.519
+  F,2,2057,2571,1,0
+ S,0,93744,,0.1
+ R,0,93744,,2.263004
+ C,0,93744,,247,247,247
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93784,10
+  F,1,0,514,0,1
+  M,0,0,2571,512.7813,230.6213,211.6612,917.5178
+  F,2,2057,2571,1,0
+ S,0,93784,,0.1
+ R,0,93784,,1.983943
+ C,0,93784,,224,224,224
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93825,10
+  F,1,0,514,0,1
+  M,0,0,2571,97.79211,64.83282,-458.0605,568.3484
+  F,2,2057,2571,1,0
+ S,0,93825,,0.1
+ R,0,93825,,2.405558
+ C,0,93825,,228,228,228
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93865,10
+  F,1,0,514,0,1
+  M,0,0,2571,600.6642,-74.77985,319.0944,620.3593
+  F,2,2057,2571,1,0
+ S,0,93865,,0.1
+ R,0,93865,,1.955653
+ C,0,93865,,183,183,183
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93905,10
+  F,1,0,514,0,1
+  M,0,0,2571,345.4201,317.4727,410.4399,1064.649
+  F,2,2057,2571,1,0
+ S,0,93905,,0.1
+ R,0,93905,,1.483994
+ C,0,93905,,175,175,175
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93945,10
+  F,1,0,514,0,1
+  M,0,0,2571,207.5801,-211.4153,-186.9189,426.4488
+  F,2,2057,2571,1,0
+ S,0,93945,,0.1
+ R,0,93945,,2.124685
+ C,0,93945,,162,162,162
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,93985,10
+  F,1,0,514,0,1
+  M,0,0,2571,503.6898,-40.21468,-118.1571,379.0783
+  F,2,2057,2571,1,0
+ S,0,93985,,0.1
+ R,0,93985,,2.548344
+ C,0,93985,,157,157,157
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94025,10
+  F,1,0,514,0,1
+  M,0,0,2571,489.7473,94.86284,116.014,745.1117
+  F,2,2057,2571,1,0
+ S,0,94025,,0.1
+ R,0,94025,,2.092446
+ C,0,94025,,193,193,193
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94066,10
+  F,1,0,514,0,1
+  M,0,0,2571,597.1002,237.6004,264.9427,910.0375
+  F,2,2057,2571,1,0
+ S,0,94066,,0.1
+ R,0,94066,,2.029601
+ C,0,94066,,221,221,221
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94106,10
+  F,1,0,514,0,1
+  M,0,0,2571,636.1713,6.905212,48.85968,473.3441
+  F,2,2057,2571,1,0
+ S,0,94106,,0.1
+ R,0,94106,,2.470402
+ C,0,94106,,197,197,197
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94186,10
+  F,1,0,514,0,1
+  M,0,0,2571,222.4655,169.4912,219.4643,919.4852
+  F,2,2057,2571,1,0
+ S,0,94186,,0.1
+ R,0,94186,,1.574798
+ C,0,94186,,208,208,208
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94226,10
+  F,1,0,514,0,1
+  M,0,0,2571,598.58,66.85012,346.4107,773.1863
+  F,2,2057,2571,1,0
+ S,0,94226,,0.1
+ R,0,94226,,1.913703
+ C,0,94226,,210,210,210
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94267,10
+  F,1,0,514,0,1
+  M,0,0,2571,666.0845,188.8076,520.8087,924.6031
+  F,2,2057,2571,1,0
+ S,0,94267,,0.1
+ R,0,94267,,1.76573
+ C,0,94267,,151,151,151
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94307,10
+  F,1,0,514,0,1
+  M,0,0,2571,332.1431,-268.3992,-240.2906,216.1828
+  F,2,2057,2571,1,0
+ S,0,94307,,0.1
+ R,0,94307,,2.439117
+ C,0,94307,,208,208,208
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94347,10
+  F,1,0,514,0,1
+  M,0,0,2571,492.1336,136.7925,119.1763,787.4866
+  F,2,2057,2571,1,0
+ S,0,94347,,0.1
+ R,0,94347,,2.091253
+ C,0,94347,,254,254,254
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94387,10
+  F,1,0,514,0,1
+  M,0,0,2571,337.6425,-37.92934,354.2453,711.887
+  F,2,2057,2571,1,0
+ S,0,94387,,0.1
+ R,0,94387,,1.548657
+ C,0,94387,,205,205,205
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94467,10
+  F,1,0,514,0,1
+  M,0,0,2571,647.7098,120.9496,790.5741,857.2172
+  F,2,2057,2571,1,0
+ S,0,94467,,0.1
+ R,0,94467,,1.37914
+ C,0,94467,,214,214,214
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94508,10
+  F,1,0,514,0,1
+  M,0,0,2571,181.7993,-122.1119,-253.984,488.2921
+  F,2,2057,2571,1,0
+ S,0,94508,,0.1
+ R,0,94508,,2.190808
+ C,0,94508,,169,169,169
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94548,10
+  F,1,0,514,0,1
+  M,0,0,2571,645.8009,96.79391,408.112,808.1335
+  F,2,2057,2571,1,0
+ S,0,94548,,0.1
+ R,0,94548,,1.893275
+ C,0,94548,,174,174,174
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94588,10
+  F,1,0,514,0,1
+  M,0,0,2571,437.3135,138.7377,240.4066,862.4281
+  F,2,2057,2571,1,0
+ S,0,94588,,0.1
+ R,0,94588,,1.836453
+ C,0,94588,,159,159,159
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94628,10
+  F,1,0,514,0,1
+  M,0,0,2571,170.9442,209.1187,259.3004,953.8961
+  F,2,2057,2571,1,0
+ S,0,94628,,0.1
+ R,0,94628,,1.452714
+ C,0,94628,,140,140,140
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94668,10
+  F,1,0,514,0,1
+  M,0,0,2571,67.36703,-20.98782,-609.1288,302.8231
+  F,2,2057,2571,1,0
+ S,0,94668,,0.1
+ R,0,94668,,2.695163
+ C,0,94668,,228,228,228
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94709,10
+  F,1,0,514,0,1
+  M,0,0,2571,357.3131,348.447,6.350311,1011.263
+  F,2,2057,2571,1,0
+ S,0,94709,,0.1
+ R,0,94709,,2.057766
+ C,0,94709,,179,179,179
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94749,10
+  F,1,0,514,0,1
+  M,0,0,2571,108.0522,170.4109,-504.3531,603.3772
+  F,2,2057,2571,1,0
+ S,0,94749,,0.1
+ R,0,94749,,2.526189
+ C,0,94749,,164,164,164
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94789,10
+  F,1,0,514,0,1
+  M,0,0,2571,649.8729,251.8779,766.6828,992.7258
+  F,2,2057,2571,1,0
+ S,0,94789,,0.1
+ R,0,94789,,1.414413
+ C,0,94789,,201,201,201
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94829,10
+  F,1,0,514,0,1
+  M,0,0,2571,476.3761,-251.8758,388.6844,492.98
+  F,2,2057,2571,1,0
+ S,0,94829,,0.1
+ R,0,94829,,1.687987
+ C,0,94829,,137,137,137
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94869,10
+  F,1,0,514,0,1
+  M,0,0,2571,375.1331,-117.0157,472.4831,626.6395
+  F,2,2057,2571,1,0
+ S,0,94869,,0.1
+ R,0,94869,,1.440629
+ C,0,94869,,213,213,213
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94909,10
+  F,1,0,514,0,1
+  M,0,0,2571,405.3144,200.0185,447.2819,948.8434
+  F,2,2057,2571,1,0
+ S,0,94909,,0.1
+ R,0,94909,,1.51481
+ C,0,94909,,157,157,157
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94950,10
+  F,1,0,514,0,1
+  M,0,0,2571,215.2812,-174.8548,-204.1757,446.8815
+  F,2,2057,2571,1,0
+ S,0,94950,,0.1
+ R,0,94950,,2.164308
+ C,0,94950,,164,164,164
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,94990,10
+  F,1,0,514,0,1
+  M,0,0,2571,696.2297,193.5829,224.458,776.6194
+  F,2,2057,2571,1,0
+ S,0,94990,,0.1
+ R,0,94990,,2.2511
+ C,0,94990,,214,214,214
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95030,10
+  F,1,0,514,0,1
+  M,0,0,2571,413.8228,185.1599,186.2828,899.8107
+  F,2,2057,2571,1,0
+ S,0,95030,,0.1
+ R,0,95030,,1.879041
+ C,0,95030,,245,245,245
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95070,10
+  F,1,0,514,0,1
+  M,0,0,2571,132.8919,15.1952,83.5249,763.5688
+  F,2,2057,2571,1,0
+ S,0,95070,,0.1
+ R,0,95070,,1.636667
+ C,0,95070,,184,184,184
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95110,10
+  F,1,0,514,0,1
+  M,0,0,2571,701.1692,-8.092309,1016.183,672.5443
+  F,2,2057,2571,1,0
+ S,0,95110,,0.1
+ R,0,95110,,1.13733
+ C,0,95110,,250,250,250
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95150,10
+  F,1,0,514,0,1
+  M,0,0,2571,594.2816,264.0273,810.8698,982.0731
+  F,2,2057,2571,1,0
+ S,0,95150,,0.1
+ R,0,95150,,1.27784
+ C,0,95150,,175,175,175
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95191,10
+  F,1,0,514,0,1
+  M,0,0,2571,657.3746,196.5294,861.9229,918.0972
+  F,2,2057,2571,1,0
+ S,0,95191,,0.1
+ R,0,95191,,1.294566
+ C,0,95191,,213,213,213
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95231,10
+  F,1,0,514,0,1
+  M,0,0,2571,261.3156,-78.32635,-316.1302,400.272
+  F,2,2057,2571,1,0
+ S,0,95231,,0.1
+ R,0,95231,,2.449524
+ C,0,95231,,190,190,190
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95271,10
+  F,1,0,514,0,1
+  M,0,0,2571,689.2499,-177.7502,477.2175,541.654
+  F,2,2057,2571,1,0
+ S,0,95271,,0.1
+ R,0,95271,,1.857414
+ C,0,95271,,234,234,234
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95311,10
+  F,1,0,514,0,1
+  M,0,0,2571,160.4094,128.3993,-518.8258,446.424
+  F,2,2057,2571,1,0
+ S,0,95311,,0.1
+ R,0,95311,,2.703699
+ C,0,95311,,159,159,159
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95392,10
+  F,1,0,514,0,1
+  M,0,0,2571,290.5422,-32.84401,605.3715,647.8781
+  F,2,2057,2571,1,0
+ S,0,95392,,0.1
+ R,0,95392,,1.137602
+ C,0,95392,,221,221,221
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95432,10
+  F,1,0,514,0,1
+  M,0,0,2571,176.8655,230.5232,121.2501,978.4584
+  F,2,2057,2571,1,0
+ S,0,95432,,0.1
+ R,0,95432,,1.645018
+ C,0,95432,,200,200,200
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95472,10
+  F,1,0,514,0,1
+  M,0,0,2571,547.0569,-232.3712,265.7868,462.8894
+  F,2,2057,2571,1,0
+ S,0,95472,,0.1
+ R,0,95472,,1.955222
+ C,0,95472,,224,224,224
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95512,10
+  F,1,0,514,0,1
+  M,0,0,2571,229.266,-66.28728,262.0388,682.9964
+  F,2,2057,2571,1,0
+ S,0,95512,,0.1
+ R,0,95512,,1.527085
+ C,0,95512,,193,193,193
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95552,10
+  F,1,0,514,0,1
+  M,0,0,2571,604.2477,-98.89103,704.7023,644.3511
+  F,2,2057,2571,1,0
+ S,0,95552,,0.1
+ R,0,95552,,1.436453
+ C,0,95552,,226,226,226
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95592,10
+  F,1,0,514,0,1
+  M,0,0,2571,492.993,252.9716,225.4725,953.6377
+  F,2,2057,2571,1,0
+ S,0,95592,,0.1
+ R,0,95592,,1.935523
+ C,0,95592,,197,197,197
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95633,10
+  F,1,0,514,0,1
+  M,0,0,2571,611.828,141.6071,796.481,868.5208
+  F,2,2057,2571,1,0
+ S,0,95633,,0.1
+ R,0,95633,,1.322035
+ C,0,95633,,204,204,204
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,95673,10
+  F,1,0,514,0,1
+  M,0,0,2571,334.732,-275.2465,635.0439,412.0038
+  F,2,2057,2571,1,0
+ S,0,95673,,0.1
+ R,0,95673,,1.158826
+ C,0,95673,,199,199,199
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,51714,9
+  F,1,0,507,0,1
+  M,0,0,2539,371.5992,-321.8427,136.55,119.4643
+  F,2,2031,2539,1,0
+ S,0,51714,,0.1
+ R,0,51714,,2.060199
+ C,0,51714,,173,173,173
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,51872,9
+  F,1,0,507,0,1
+  M,0,0,2539,100.5196,-123.9088,-56.18938,350.8989
+  F,2,2031,2539,1,0
+ S,0,51872,,0.1
+ R,0,51872,,1.889587
+ C,0,51872,,166,166,166
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52031,9
+  F,1,0,507,0,1
+  M,0,0,2539,355.9474,237.6158,152.7404,694.4603
+  F,2,2031,2539,1,0
+ S,0,52031,,0.1
+ R,0,52031,,1.989322
+ C,0,52031,,253,253,253
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52190,9
+  F,1,0,507,0,1
+  M,0,0,2539,748.2432,63.4005,462.4536,473.6741
+  F,2,2031,2539,1,0
+ S,0,52190,,0.1
+ R,0,52190,,2.179225
+ C,0,52190,,181,181,181
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52348,9
+  F,1,0,507,0,1
+  M,0,0,2539,555.3015,-302.6566,270.2524,108.1318
+  F,2,2031,2539,1,0
+ S,0,52348,,0.1
+ R,0,52348,,2.177422
+ C,0,52348,,231,231,231
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52507,9
+  F,1,0,507,0,1
+  M,0,0,2539,76.81311,-57.19763,-139.4549,393.6107
+  F,2,2031,2539,1,0
+ S,0,52507,,0.1
+ R,0,52507,,2.0181
+ C,0,52507,,161,161,161
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52666,9
+  F,1,0,507,0,1
+  M,0,0,2539,513.2853,223.7165,393.0429,709.043
+  F,2,2031,2539,1,0
+ S,0,52666,,0.1
+ R,0,52666,,1.813662
+ C,0,52666,,211,211,211
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52825,9
+  F,1,0,507,0,1
+  M,0,0,2539,425.1065,-62.55417,283.6835,417.0285
+  F,2,2031,2539,1,0
+ S,0,52825,,0.1
+ R,0,52825,,1.857556
+ C,0,52825,,251,251,251
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,52983,9
+  F,1,0,507,0,1
+  M,0,0,2539,115.5436,-9.815356,41.04572,484.6036
+  F,2,2031,2539,1,0
+ S,0,52983,,0.1
+ R,0,52983,,1.720349
+ C,0,52983,,246,246,246
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53142,9
+  F,1,0,507,0,1
+  M,0,0,2539,478.0234,-200.8215,317.5825,272.7382
+  F,2,2031,2539,1,0
+ S,0,53142,,0.1
+ R,0,53142,,1.897457
+ C,0,53142,,190,190,190
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53301,9
+  F,1,0,507,0,1
+  M,0,0,2539,162.2359,163.4156,-37.89795,621.6148
+  F,2,2031,2539,1,0
+ S,0,53301,,0.1
+ R,0,53301,,1.982605
+ C,0,53301,,175,175,175
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53460,9
+  F,1,0,507,0,1
+  M,0,0,2539,655.8643,-226.5896,428.3877,218.6681
+  F,2,2031,2539,1,0
+ S,0,53460,,0.1
+ R,0,53460,,2.043116
+ C,0,53460,,217,217,217
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53618,9
+  F,1,0,507,0,1
+  M,0,0,2539,300.9346,-118.8653,37.00534,305.8009
+  F,2,2031,2539,1,0
+ S,0,53618,,0.1
+ R,0,53618,,2.126873
+ C,0,53618,,147,147,147
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53777,9
+  F,1,0,507,0,1
+  M,0,0,2539,498.4446,-126.0831,292.5009,329.5343
+  F,2,2031,2539,1,0
+ S,0,53777,,0.1
+ R,0,53777,,1.995321
+ C,0,53777,,165,165,165
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,53936,9
+  F,1,0,507,0,1
+  M,0,0,2539,669.7699,-0.0428467,461.8981,454.6981
+  F,2,2031,2539,1,0
+ S,0,53936,,0.1
+ R,0,53936,,1.999557
+ C,0,53936,,234,234,234
+Sprite,Background,Centre,"sb\sakura.png",0,0
+ L,54094,9
+  F,1,0,507,0,1
+  M,0,0,2539,667.6201,182.1397,444.1033,629.3983
+  F,2,2031,2539,1,0
+ S,0,54094,,0.1
+ R,0,54094,,2.034243
+ C,0,54094,,247,247,247
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_000.png",100,150
+ F,0,23260,23460,0,1
+ F,0,23920,24120,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_001.png",100,150
+ F,0,23920,24120,0,1
+ F,0,24700,24900,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_002.png",100,150
+ F,0,24700,24900,0,1
+ F,0,26140,26340,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_003.png",100,150
+ F,0,26140,26340,0,1
+ F,0,26940,27140,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_004.png",100,150
+ F,0,26940,27140,0,1
+ F,0,28420,28620,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_005.png",100,150
+ F,0,28960,29160,0,1
+ F,0,29740,29940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_006.png",100,150
+ F,0,29740,29940,0,1
+ F,0,30440,30640,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_007.png",100,150
+ F,0,30440,30640,0,1
+ F,0,32020,32220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_008.png",100,150
+ F,0,32020,32220,0,1
+ F,0,32900,33100,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_009.png",100,150
+ F,0,32900,33100,0,1
+ F,0,34740,34940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00a.png",100,150
+ F,0,35040,35240,0,1
+ F,0,36100,36300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00b.png",100,150
+ F,0,36100,36300,0,1
+ F,0,37580,37780,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00c.png",100,150
+ F,0,37580,37780,0,1
+ F,0,39000,39200,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00d.png",100,150
+ F,0,39000,39200,0,1
+ F,0,40640,40840,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00e.png",100,150
+ F,0,40860,41060,0,1
+ F,0,41880,42080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00f.png",100,150
+ F,0,41880,42080,0,1
+ F,0,43660,43860,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_010.png",100,150
+ F,0,43660,43860,0,1
+ F,0,44700,44900,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_011.png",100,150
+ F,0,44700,44900,0,1
+ F,0,46080,46280,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\6d99.png",100,150
+ F,0,46080,46280,0,1
+ F,0,46880,47080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_012.png",100,150
+ F,0,46880,47080,0,1
+ F,0,47580,47780,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_013.png",100,150
+ F,0,47580,47780,0,1
+ F,0,49000,49200,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_014.png",100,150
+ F,0,49000,49200,0,1
+ F,0,49800,50000,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_015.png",100,150
+ F,0,50060,50260,0,1
+ F,0,51100,51300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00a.png",100,150
+ F,0,75060,75260,0,1
+ F,0,76140,76340,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_00b.png",100,150
+ F,0,76140,76340,0,1
+ F,0,77580,77780,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_016.png",100,150
+ F,0,77580,77780,0,1
+ F,0,79360,79560,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_017.png",100,150
+ F,0,79360,79560,0,1
+ F,0,80730,80930,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_018.png",100,150
+ F,0,80730,80930,0,1
+ F,0,81880,82080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_019.png",100,150
+ F,0,81880,82080,0,1
+ F,0,83310,83510,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_01a.png",100,150
+ F,0,83310,83510,0,1
+ F,0,84720,84920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_011.png",100,150
+ F,0,84720,84920,0,1
+ F,0,86050,86250,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_01b.png",100,150
+ F,0,86190,86390,0,1
+ F,0,86860,87060,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_01c.png",100,150
+ F,0,86860,87060,0,1
+ F,0,87760,87960,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_01d.png",100,150
+ F,0,87760,87960,0,1
+ F,0,89020,89220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\5fc3.png",100,150
+ F,0,89020,89220,0,1
+ F,0,89840,90040,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\normal\_01e.png",100,150
+ F,0,90100,90300,0,1
+ F,0,92410,92610,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3055.png",100,150
+ F,0,51520,51720,0,1
+ S,1,51520,51720,23,1
+ F,0,52530,52730,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308c.png",175,150
+ F,0,51880,52080,0,1
+ S,1,51880,52080,25,1
+ F,0,52530,52730,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3069.png",250,150
+ F,0,52240,52440,0,1
+ S,1,52240,52440,24,1
+ F,0,52530,52730,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3059.png",100,150
+ F,0,52530,52730,0,1
+ S,1,52530,52730,18,1
+ F,0,53300,53500,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3050.png",175,150
+ F,0,52770,52970,0,1
+ S,1,52770,52970,10,1
+ F,0,53300,53500,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_000.png",250,150
+ F,0,52960,53160,0,1
+ S,1,52960,53160,18,1
+ F,0,53300,53500,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\96ea.png",100,150
+ F,0,53300,53500,0,1
+ S,1,53300,53500,27,1
+ F,0,54740,54940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306f.png",175,150
+ F,0,53640,53840,0,1
+ S,1,53640,53840,16,1
+ F,0,54740,54940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6563.png",250,150
+ F,0,53970,54170,0,1
+ S,1,53970,54170,29,1
+ F,0,54740,54940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_001.png",325,150
+ F,0,54370,54570,0,1
+ S,1,54370,54570,11,1
+ F,0,54740,54940,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\8cb4.png",100,150
+ F,0,54740,54940,0,1
+ S,1,54740,54940,12,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\5973.png",175,150
+ F,0,54920,55120,0,1
+ S,1,54920,55120,16,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306e.png",250,150
+ F,0,55060,55260,0,1
+ S,1,55060,55260,20,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3082.png",325,150
+ F,0,55460,55660,0,1
+ S,1,55460,55660,16,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3068.png",400,150
+ F,0,55640,55840,0,1
+ S,1,55640,55840,29,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306b.png",475,150
+ F,0,55810,56010,0,1
+ S,1,55810,56010,5,1
+ F,0,56180,56380,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\9084.png",100,150
+ F,0,56180,56380,0,1
+ S,1,56180,56380,26,1
+ F,0,57610,57810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308a.png",175,150
+ F,0,56530,56730,0,1
+ S,1,56530,56730,29,1
+ F,0,57610,57810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\7740.png",250,150
+ F,0,56840,57040,0,1
+ S,1,56840,57040,21,1
+ F,0,57610,57810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304f.png",325,150
+ F,0,57240,57440,0,1
+ S,1,57240,57440,12,1
+ F,0,57610,57810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\4ea4.png",100,150
+ F,0,57610,57810,0,1
+ S,1,57610,57810,25,1
+ F,0,59020,59220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308f.png",175,150
+ F,0,57750,57950,0,1
+ S,1,57750,57950,26,1
+ F,0,59020,59220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3057.png",250,150
+ F,0,57910,58110,0,1
+ S,1,57910,58110,29,1
+ F,0,59020,59220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\305f.png",325,150
+ F,0,58480,58680,0,1
+ S,1,58480,58680,5,1
+ F,0,59020,59220,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\7d04.png",100,150
+ F,0,59020,59220,0,1
+ S,1,59020,59220,22,1
+ F,0,60460,60660,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\675f.png",175,150
+ F,0,59640,59840,0,1
+ S,1,59640,59840,18,1
+ F,0,60460,60660,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\679c.png",100,150
+ F,0,60460,60660,0,1
+ S,1,60460,60660,28,1
+ F,0,62450,62650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\305f.png",175,150
+ F,0,60830,61030,0,1
+ S,1,60830,61030,22,1
+ F,0,62450,62650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3057.png",250,150
+ F,0,61230,61430,0,1
+ S,1,61230,61430,18,1
+ F,0,62450,62650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306b.png",325,150
+ F,0,61510,61710,0,1
+ S,1,61510,61710,7,1
+ F,0,62450,62650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3055.png",100,150
+ F,0,62830,63030,0,1
+ S,1,62830,63030,9,1
+ F,0,63990,64190,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308c.png",175,150
+ F,0,63320,63520,0,1
+ S,1,63320,63520,16,1
+ F,0,63990,64190,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3069.png",250,150
+ F,0,63680,63880,0,1
+ S,1,63680,63880,12,1
+ F,0,63990,64190,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\685c.png",100,150
+ F,0,63990,64190,0,1
+ S,1,63990,64190,29,1
+ F,0,64720,64920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\821e.png",100,150
+ F,0,64720,64920,0,1
+ S,1,64720,64920,21,1
+ F,0,66170,66370,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3046.png",175,150
+ F,0,64900,65100,0,1
+ S,1,64900,65100,24,1
+ F,0,66170,66370,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\65e5.png",250,150
+ F,0,65090,65290,0,1
+ S,1,65090,65290,5,1
+ F,0,66170,66370,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307e.png",325,150
+ F,0,65470,65670,0,1
+ S,1,65470,65670,14,1
+ F,0,66170,66370,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3067.png",400,150
+ F,0,65760,65960,0,1
+ S,1,65760,65960,13,1
+ F,0,66170,66370,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\60f3.png",100,150
+ F,0,66170,66370,0,1
+ S,1,66170,66370,28,1
+ F,0,66870,67070,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_002.png",175,150
+ F,0,66440,66640,0,1
+ S,1,66440,66640,17,1
+ F,0,66870,67070,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306e.png",100,150
+ F,0,66870,67070,0,1
+ S,1,66870,67070,22,1
+ F,0,67610,67810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\4e08.png",175,150
+ F,0,67070,67270,0,1
+ S,1,67070,67270,7,1
+ F,0,67610,67810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_003.png",250,150
+ F,0,67410,67610,0,1
+ S,1,67410,67610,11,1
+ F,0,67610,67810,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3048.png",100,150
+ F,0,67690,67890,0,1
+ S,1,67690,67890,27,1
+ F,0,69010,69210,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308b.png",175,150
+ F,0,67960,68160,0,1
+ S,1,67960,68160,24,1
+ F,0,69010,69210,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307e.png",250,150
+ F,0,68320,68520,0,1
+ S,1,68320,68520,13,1
+ F,0,69010,69210,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3067.png",325,150
+ F,0,68670,68870,0,1
+ S,1,68670,68870,16,1
+ F,0,69010,69210,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6708.png",100,150
+ F,0,69010,69210,0,1
+ S,1,69010,69210,8,1
+ F,0,70450,70650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\8a60.png",175,150
+ F,0,69330,69530,0,1
+ S,1,69330,69530,10,1
+ F,0,70450,70650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307f.png",250,150
+ F,0,69910,70110,0,1
+ S,1,69910,70110,15,1
+ F,0,70450,70650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6570.png",100,150
+ F,0,70450,70650,0,1
+ S,1,70450,70650,22,1
+ F,0,71880,72080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3048.png",175,150
+ F,0,70820,71020,0,1
+ S,1,70820,71020,20,1
+ F,0,71880,72080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308b.png",250,150
+ F,0,71490,71690,0,1
+ S,1,71490,71690,17,1
+ F,0,71880,72080,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6696.png",100,150
+ F,0,71880,72080,0,1
+ S,1,71880,72080,9,1
+ F,0,73460,73660,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304b.png",175,150
+ F,0,72970,73170,0,1
+ S,1,72970,73170,26,1
+ F,0,73460,73660,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3044.png",250,150
+ F,0,73200,73400,0,1
+ S,1,73200,73400,25,1
+ F,0,73460,73660,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\967d.png",100,150
+ F,0,73460,73660,0,1
+ S,1,73460,73660,23,1
+ F,0,74720,74920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306f.png",175,150
+ F,0,73850,74050,0,1
+ S,1,73850,74050,26,1
+ F,0,74720,74920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307e.png",250,150
+ F,0,74010,74210,0,1
+ S,1,74010,74210,21,1
+ F,0,74720,74920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3060.png",325,150
+ F,0,74190,74390,0,1
+ S,1,74190,74390,20,1
+ F,0,74720,74920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_004.png",400,150
+ F,0,74370,74570,0,1
+ S,1,74370,74570,10,1
+ F,0,74720,74920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3055.png",100,150
+ F,0,92860,93060,0,1
+ S,1,92860,93060,27,1
+ F,0,93910,94110,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308c.png",175,150
+ F,0,93320,93520,0,1
+ S,1,93320,93520,27,1
+ F,0,93910,94110,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3069.png",250,150
+ F,0,93640,93840,0,1
+ S,1,93640,93840,7,1
+ F,0,93910,94110,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3059.png",100,150
+ F,0,93910,94110,0,1
+ S,1,93910,94110,25,1
+ F,0,94720,94920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3050.png",175,150
+ F,0,94180,94380,0,1
+ S,1,94180,94380,9,1
+ F,0,94720,94920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306b.png",250,150
+ F,0,94360,94560,0,1
+ S,1,94360,94560,21,1
+ F,0,94720,94920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\8cb4.png",100,150
+ F,0,96090,96290,0,1
+ S,1,96090,96290,25,1
+ F,0,96850,97050,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\5973.png",175,150
+ F,0,96320,96520,0,1
+ S,1,96320,96520,10,1
+ F,0,96850,97050,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306e.png",250,150
+ F,0,96530,96730,0,1
+ S,1,96530,96730,29,1
+ F,0,96850,97050,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3082.png",100,150
+ F,0,96850,97050,0,1
+ S,1,96850,97050,17,1
+ F,0,97590,97790,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3068.png",175,150
+ F,0,97060,97260,0,1
+ S,1,97060,97260,21,1
+ F,0,97590,97790,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306b.png",250,150
+ F,0,97220,97420,0,1
+ S,1,97220,97420,22,1
+ F,0,97590,97790,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\9084.png",100,150
+ F,0,97590,97790,0,1
+ S,1,97590,97790,25,1
+ F,0,99030,99230,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308a.png",175,150
+ F,0,97950,98150,0,1
+ S,1,97950,98150,7,1
+ F,0,99030,99230,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\7740.png",250,150
+ F,0,98280,98480,0,1
+ S,1,98280,98480,23,1
+ F,0,99030,99230,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304f.png",325,150
+ F,0,98680,98880,0,1
+ S,1,98680,98880,22,1
+ F,0,99030,99230,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\5f85.png",100,150
+ F,0,99030,99230,0,1
+ S,1,99030,99230,8,1
+ F,0,100450,100650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\305f.png",175,150
+ F,0,99200,99400,0,1
+ S,1,99200,99400,27,1
+ F,0,100450,100650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\305b.png",250,150
+ F,0,99350,99550,0,1
+ S,1,99350,99550,9,1
+ F,0,100450,100650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\305f.png",325,150
+ F,0,99940,100140,0,1
+ S,1,99940,100140,16,1
+ F,0,100450,100650,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6d99.png",100,150
+ F,0,100450,100650,0,1
+ S,1,100450,100650,18,1
+ F,0,103970,104170,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3092.png",175,150
+ F,0,101530,101730,0,1
+ S,1,101530,101730,13,1
+ F,0,103970,104170,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\62ed.png",250,150
+ F,0,101860,102060,0,1
+ S,1,101860,102060,21,1
+ F,0,103970,104170,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3044.png",325,150
+ F,0,102770,102970,0,1
+ S,1,102770,102970,16,1
+ F,0,103970,104170,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306b.png",400,150
+ F,0,102930,103130,0,1
+ S,1,102930,103130,25,1
+ F,0,103970,104170,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_005.png",100,150
+ F,0,104270,104470,0,1
+ S,1,104270,104470,25,1
+ F,0,105080,105280,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308c.png",175,150
+ F,0,104740,104940,0,1
+ S,1,104740,104940,24,1
+ F,0,105080,105280,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\821e.png",100,150
+ F,0,106150,106350,0,1
+ S,1,106150,106350,24,1
+ F,0,107600,107800,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3046.png",175,150
+ F,0,106350,106550,0,1
+ S,1,106350,106550,28,1
+ F,0,107600,107800,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\65e5.png",250,150
+ F,0,106530,106730,0,1
+ S,1,106530,106730,12,1
+ F,0,107600,107800,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307e.png",325,150
+ F,0,106880,107080,0,1
+ S,1,106880,107080,18,1
+ F,0,107600,107800,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3067.png",400,150
+ F,0,107220,107420,0,1
+ S,1,107220,107420,21,1
+ F,0,107600,107800,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\8cb4.png",100,150
+ F,0,107600,107800,0,1
+ S,1,107600,107800,13,1
+ F,0,107940,108140,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\5973.png",175,150
+ F,0,107780,107980,0,1
+ S,1,107780,107980,12,1
+ F,0,107940,108140,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6b4c.png",100,150
+ F,0,108320,108520,0,1
+ S,1,108320,108520,25,1
+ F,0,108640,108840,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\8074.png",100,150
+ F,0,109030,109230,0,1
+ S,1,109030,109230,10,1
+ F,0,109400,109600,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304f.png",175,150
+ F,0,109220,109420,0,1
+ S,1,109220,109420,9,1
+ F,0,109400,109600,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6307.png",100,150
+ F,0,110350,110550,0,1
+ S,1,110350,110550,6,1
+ F,0,111890,112090,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6298.png",175,150
+ F,0,110810,111010,0,1
+ S,1,110810,111010,20,1
+ F,0,111890,112090,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308a.png",250,150
+ F,0,111380,111580,0,1
+ S,1,111380,111580,22,1
+ F,0,111890,112090,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6570.png",100,150
+ F,0,111890,112090,0,1
+ S,1,111890,112090,20,1
+ F,0,113320,113520,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3048.png",175,150
+ F,0,112610,112810,0,1
+ S,1,112610,112810,28,1
+ F,0,113320,113520,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\308b.png",250,150
+ F,0,112920,113120,0,1
+ S,1,112920,113120,10,1
+ F,0,113320,113520,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\6696.png",100,150
+ F,0,113320,113520,0,1
+ S,1,113320,113520,28,1
+ F,0,114930,115130,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304b.png",175,150
+ F,0,114380,114580,0,1
+ S,1,114380,114580,6,1
+ F,0,114930,115130,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3044.png",250,150
+ F,0,114660,114860,0,1
+ S,1,114660,114860,27,1
+ F,0,114930,115130,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\967d.png",100,150
+ F,0,114930,115130,0,1
+ S,1,114930,115130,21,1
+ F,0,116100,116300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\306f.png",175,150
+ F,0,115280,115480,0,1
+ S,1,115280,115480,7,1
+ F,0,116100,116300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\307e.png",250,150
+ F,0,115460,115660,0,1
+ S,1,115460,115660,8,1
+ F,0,116100,116300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3060.png",325,150
+ F,0,115620,115820,0,1
+ S,1,115620,115820,7,1
+ F,0,116100,116300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_004.png",400,150
+ F,0,115800,116000,0,1
+ S,1,115800,116000,20,1
+ F,0,116100,116300,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304d.png",100,150
+ F,0,116170,116370,0,1
+ S,1,116170,116370,28,1
+ F,0,116720,116920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3063.png",175,150
+ F,0,116340,116540,0,1
+ S,1,116340,116540,17,1
+ F,0,116720,116920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3068.png",250,150
+ F,0,116540,116740,0,1
+ S,1,116540,116740,8,1
+ F,0,116720,116920,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\7b11.png",100,150
+ F,0,116880,117080,0,1
+ S,1,116880,117080,21,1
+ F,0,117780,117980,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\9854.png",175,150
+ F,0,117240,117440,0,1
+ S,1,117240,117440,19,1
+ F,0,117780,117980,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3067.png",100,150
+ F,0,117780,117980,0,1
+ S,1,117780,117980,10,1
+ F,0,119770,119970,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3044.png",175,150
+ F,0,118080,118280,0,1
+ S,1,118080,118280,20,1
+ F,0,119770,119970,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\3066.png",250,150
+ F,0,118300,118500,0,1
+ S,1,118300,118500,5,1
+ F,0,119770,119970,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\304f.png",325,150
+ F,0,118490,118690,0,1
+ S,1,118490,118690,14,1
+ F,0,119770,119970,1,0
+Sprite,Foreground,CentreLeft,"sb\lyrics\chorus\_006.png",400,150
+ F,0,118640,118840,0,1
+ S,1,118640,118840,26,1
+ F,0,119770,119970,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\51ac.png",320,240
+ F,0,94740,94940,0,1
+ S,1,94740,94940,20,1
+ F,0,95090,95290,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\306f.png",320,240
+ F,0,95090,95290,0,1
+ S,1,95090,95290,22,1
+ F,0,95430,95630,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\53bb.png",320,240
+ F,0,95430,95630,0,1
+ S,1,95430,95630,27,1
+ F,0,95860,96060,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\308a.png",320,240
+ F,0,95860,96060,0,1
+ S,1,95860,96060,29,1
+ F,0,96160,96360,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\3069.png",320,240
+ F,0,105040,105240,0,1
+ S,1,105040,105240,29,1
+ F,0,105410,105610,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\685c.png",320,240
+ F,0,105410,105610,0,1
+ S,1,105410,105610,23,1
+ F,0,106110,106310,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\306e.png",320,240
+ F,0,107940,108140,0,1
+ S,1,107940,108140,25,1
+ F,0,108290,108490,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\3092.png",320,240
+ F,0,108650,108850,0,1
+ S,1,108650,108850,22,1
+ F,0,109020,109220,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\65e5.png",320,240
+ F,0,109330,109530,0,1
+ S,1,109330,109530,25,1
+ F,0,109620,109820,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\307e.png",320,240
+ F,0,109620,109820,0,1
+ S,1,109620,109820,25,1
+ F,0,110090,110290,1,0
+Sprite,Foreground,Centre,"sb\lyrics\huge\3067.png",320,240
+ F,0,110090,110290,0,1
+ S,1,110090,110290,20,1
+ F,0,110450,110650,1,0
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples

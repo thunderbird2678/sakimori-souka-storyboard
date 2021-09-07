@@ -16,7 +16,7 @@ using System.Linq;
 
 namespace StorybrewScripts
 {
-    public class bounce : StoryboardObjectGenerator
+    public class pulse : StoryboardObjectGenerator
     {
         [Configurable]
         // a string containing a path to the background image used for the effect

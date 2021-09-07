@@ -53,12 +53,9 @@
   -->
   <ItemGroup>
     <Compile Include="boom.cs" />
-    <Compile Include="bounce.cs" />
-    <Compile Include="HitObjectHighlight.cs" />
-    <Compile Include="Lyrics.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="main.cs" />
     <Compile Include="myLyrics.cs" />
-    <Compile Include="Particles.cs" />
+    <Compile Include="pulse.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>
