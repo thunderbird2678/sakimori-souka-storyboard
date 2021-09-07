@@ -1,6 +1,6 @@
 ﻿FormatVersion: 7
-Name: "bounce 1"
-Script: "bounce"
+Name: "pulse 1"
+Script: "pulse"
 Config:
   bg:
     Type: "System.String"
@@ -8,24 +8,24 @@ Config:
   beatDivisor:
     Type: "System.Int32"
     Value: "4"
+  scaleDuration:
+    Type: "System.Int32"
+    Value: "8"
+  fadeDuration:
+    Type: "System.Int32"
+    Value: "32"
   scaleStart:
     Type: "System.Double"
     Value: "0.45"
   scaleEnd:
     Type: "System.Double"
     Value: "0.48"
-  scaleDuration:
-    Type: "System.Int32"
-    Value: "4"
-  fadeDuration:
-    Type: "System.Int32"
-    Value: "6"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  20f3e6c7c43249d883e1fbd0fc915c6d:
+  89b1d4d637ba441e803127f23aa686ba:
     Name: "Main"
     OsbLayer: Background
     DiffSpecific: No

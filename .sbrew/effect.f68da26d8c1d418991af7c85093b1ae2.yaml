@@ -2,9 +2,39 @@
 Name: "myLyrics 1"
 Script: "myLyrics"
 Config:
+  lyricsNormalStr:
+    Type: "System.String"
+    Value: "lyrics/lyricNormal.ass"
+  lyricsChorusStr:
+    Type: "System.String"
+    Value: "lyrics/lyricChorus.ass"
+  lyricsHugeStr:
+    Type: "System.String"
+    Value: "lyrics/lyricHuge.ass"
+  fontPathStr:
+    Type: "System.String"
+    Value: "nagayama_kai08.otf"
+  normalSize:
+    Type: "System.Int32"
+    Value: "24"
+  chorusSize:
+    Type: "System.Int32"
+    Value: "56"
+  hugeSize:
+    Type: "System.Int32"
+    Value: "144"
+  normalShadowSize:
+    Type: "System.Int32"
+    Value: "2"
+  chorusShadowSize:
+    Type: "System.Int32"
+    Value: "4"
+  hugeShadowSize:
+    Type: "System.Int32"
+    Value: "8"
   RandomSeed:
     Type: "System.Int32"
-    Value: "0"
+    Value: "1"
     DisplayName: "Random seed"
 Layers:
   de54a69816dd4d58bf10ff1a1b880a40:
