@@ -16,7 +16,6 @@ namespace StorybrewScripts
     {
         public override void Generate()
         {
-
             var layer = GetLayer("Main");
 
             // initialize sprites
@@ -55,15 +54,6 @@ namespace StorybrewScripts
             snowLight.Fade(96625,96714,0.85,1);
             snowLight.Fade(96714,118767,1,1);
             snowLight.Fade(118767,118857,1,0);
-
-            var snowLightBounce = layer.CreateSprite("sb/snowLight.jpg", OsbOrigin.Centre);
-            snowLightBounce.Scale(OsbEasing.Out, 105285, 105642, 0.45, 0.48);
-            snowLightBounce.Fade(OsbEasing.In, 105285, 105642, 1, 0);
-
-            snowLightBounce.Fade(106000-1, 106000, 0.48, 0.45)
-            snowLightBounce.Scale(OsbEasing.Out, 106000, 106357, 0.45, 0.48);
-            snowLightBounce.Fade(OsbEasing.In, 106000, 106357, 1, 0);
-
         }
     }
 }
