@@ -1,3 +1,7 @@
+// written by thunderbird2678
+// you can contact me on twitter @thunderbird2678 or on discord (thunderbird#2678)
+// feel free to use any or all parts of this storyboard code however you wish
+
 using OpenTK;
 using OpenTK.Graphics;
 using StorybrewCommon.Mapset;
@@ -12,7 +16,7 @@ using System.Linq;
 
 namespace StorybrewScripts
 {
-    public class Bounce : StoryboardObjectGenerator
+    public class bounce : StoryboardObjectGenerator
     {
         [Configurable]
         // a string containing a path to the background image used for the effect
