@@ -60,7 +60,7 @@ namespace StorybrewScripts
                 else
                 {
                     // generate the effect if the hitcircle lands right on the timestamp
-                    if (hitobject.StartTime == Time)
+                    if (Math.Abs(hitobject.StartTime - Time) < 5)
                     {
                         // generate the sprite based on hitcircle position
                         var hSprite = hitobjectLayer.CreateSprite(SpritePath, OsbOrigin.Centre, hitobject.Position);

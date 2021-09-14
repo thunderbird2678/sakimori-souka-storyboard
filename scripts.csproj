@@ -56,6 +56,7 @@
     <Compile Include="hitObjectHighlight.cs" />
     <Compile Include="main.cs" />
     <Compile Include="myLyrics.cs" />
+    <Compile Include="Particles.cs" />
     <Compile Include="pulse.cs" />
   </ItemGroup>
   <ItemGroup />
